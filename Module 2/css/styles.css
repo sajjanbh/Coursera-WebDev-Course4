@@ -28,6 +28,7 @@ section {
 
 section div {
 	border: 1px solid #000;
+	background-color: #ddd;
 }
 
 section .title {
