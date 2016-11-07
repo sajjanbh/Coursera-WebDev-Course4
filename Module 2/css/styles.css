@@ -22,8 +22,12 @@ h1 {
 }
 
 section {
-	border: 1px solid #000;
 	margin-bottom: 15px;
+	padding: 10px;
+}
+
+section div {
+	border: 1px solid #000;
 }
 
 section .title {
