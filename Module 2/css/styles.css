@@ -1,10 +1,12 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 175%;
 }
 
 
@@ -20,13 +22,14 @@ h1 {
 }
 
 section {
-	border: 1px solid #ddd;
+	border: 1px solid #000;
 	margin-bottom: 15px;
 }
 
 section .title {
 	position: relative;
 	float: right;
+	font-size: 125%;
 	border: 1px solid #ddd;
 	background-color: #000;
 	color: #fff;
@@ -35,6 +38,7 @@ section .title {
 
 section p {
 	padding: 5px 10px;
+	clear: right;
 }
 
 /********** For Desktop View **********/
