@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: green;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ddd;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: green;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: green;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ccc;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* HEADER ends here */
+
+/* Main-Content */
+#menu-info {
+	background-color: #0b0;
+	color: #000;
+	position: relative;
+	border: 1px solid #3F0C1F;
+	overflow: hidden;
+	padding: 10px;
+}
+#menu-info h3 {
+	color: #fff;
+}
+#to-top {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 10px;
+}
+#to-top:hover {
+	color: #000;
+}
+/* Main-Content ends here */
+
+/* For small and mobile views only */
+@media (max-width: 991px) {
+	.col-sm-6, .col-xs-12 {
+		margin-bottom: 25px;
+	}
+}
